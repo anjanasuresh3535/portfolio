@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0b24"/>
+      <stop offset="100%" stop-color="#090615"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="480" fill="url(#p2bg)"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="44" fill="#171233"/>
+  <circle cx="26" cy="22" r="6" fill="#ef4444" opacity="0.8"/>
+  <circle cx="46" cy="22" r="6" fill="#f59e0b" opacity="0.8"/>
+  <circle cx="66" cy="22" r="6" fill="#10b981" opacity="0.8"/>
+  <rect x="180" y="10" width="440" height="24" rx="12" fill="#0c091a"/>
+  <text x="400" y="26" font-family="'JetBrains Mono', monospace" font-size="11" fill="#94a3b8" text-anchor="middle">devflow-app.anjana.dev/kanban</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="44" width="180" height="436" fill="#120d29"/>
+  <text x="24" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="15" font-weight="800" fill="#f8fafc">DevFlow</text>
+  
+  <rect x="16" y="105" width="148" height="34" rx="8" fill="#241a4a"/>
+  <text x="32" y="127" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#d8b4fe">📊 Sprint Board</text>
+  
+  <text x="32" y="165" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">📁 Repositories</text>
+  <text x="32" y="200" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">⚡ API Integrations</text>
+  <text x="32" y="235" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">👥 Team Roles</text>
+  <text x="32" y="270" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">⚙ Settings</text>
+  
+  <!-- Main Content Board -->
+  <!-- Column 1: Backlog -->
+  <rect x="204" y="68" width="175" height="388" rx="8" fill="#15102f" stroke="#261d4a" stroke-width="1"/>
+  <rect x="216" y="82" width="10" height="10" rx="3" fill="#a78bfa"/>
+  <text x="234" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">Backlog (3)</text>
+  
+  <!-- Card 1 -->
+  <rect x="216" y="112" width="151" height="90" rx="6" fill="#1e173e" stroke="#332463" stroke-width="1"/>
+  <text x="226" y="132" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#f8fafc">OAuth2 / JWT Auth</text>
+  <text x="226" y="152" font-family="'Inter', sans-serif" font-size="9.5" fill="#94a3b8">Role-based permission middleware</text>
+  <rect x="226" y="168" width="45" height="18" rx="4" fill="#a855f7" fill-opacity="0.2"/>
+  <text x="234" y="180" font-family="'JetBrains Mono', monospace" font-size="9" fill="#c084fc">Auth</text>
+  
+  <!-- Card 2 -->
+  <rect x="216" y="214" width="151" height="85" rx="6" fill="#1e173e" stroke="#332463" stroke-width="1"/>
+  <text x="226" y="234" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#f8fafc">Database Schema</text>
+  <text x="226" y="254" font-family="'Inter', sans-serif" font-size="9.5" fill="#94a3b8">PostgreSQL indexing</text>
+  <rect x="226" y="268" width="60" height="18" rx="4" fill="#38bdf8" fill-opacity="0.2"/>
+  <text x="233" y="280" font-family="'JetBrains Mono', monospace" font-size="9" fill="#38bdf8">Postgres</text>
+  
+  <!-- Column 2: In Progress -->
+  <rect x="395" y="68" width="185" height="388" rx="8" fill="#15102f" stroke="#261d4a" stroke-width="1"/>
+  <rect x="407" y="82" width="10" height="10" rx="3" fill="#38bdf8"/>
+  <text x="425" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">In Progress (2)</text>
+  
+  <!-- Card 3 -->
+  <rect x="407" y="112" width="161" height="110" rx="6" fill="#1e173e" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="419" y="132" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#f8fafc">RESTful API Endpoints</text>
+  <text x="419" y="152" font-family="'Inter', sans-serif" font-size="9.5" fill="#94a3b8">CRUD controllers &amp; request validation handlers</text>
+  <rect x="419" y="184" width="55" height="18" rx="4" fill="#6366f1" fill-opacity="0.25"/>
+  <text x="427" y="196" font-family="'JetBrains Mono', monospace" font-size="9" fill="#818cf8">Express</text>
+  <rect x="480" y="184" width="40" height="18" rx="4" fill="#10b981" fill-opacity="0.25"/>
+  <text x="488" y="196" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34d399">Jest</text>
+  
+  <!-- Column 3: Completed / Tested -->
+  <rect x="596" y="68" width="180" height="388" rx="8" fill="#15102f" stroke="#261d4a" stroke-width="1"/>
+  <rect x="608" y="82" width="10" height="10" rx="3" fill="#10b981"/>
+  <text x="626" y="92" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#e2e8f0">Completed (4)</text>
+  
+  <!-- Card 4 -->
+  <rect x="608" y="112" width="156" height="85" rx="6" fill="#1a1438" stroke="#10b981" stroke-width="1"/>
+  <text x="618" y="132" font-family="'Inter', sans-serif" font-size="11" font-weight="600" fill="#f8fafc">Responsive UI Layout</text>
+  <text x="618" y="152" font-family="'Inter', sans-serif" font-size="9.5" fill="#94a3b8">Tailwind / CSS Grid</text>
+  <rect x="618" y="166" width="60" height="18" rx="4" fill="#10b981" fill-opacity="0.2"/>
+  <text x="628" y="178" font-family="'JetBrains Mono', monospace" font-size="9" fill="#10b981">✓ Passed</text>
+</svg>

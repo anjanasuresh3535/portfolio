@@ -1,0 +1,12 @@
+# Temporary test screenshots
+assets/*-preview*.png
+assets/*-clean.png
+assets/*-verification.png
+assets/*-desktop*.png
+assets/*-mobile*.png
+assets/*-tablet*.png
+assets/*-final*.png
+
+# Python cache
+__pycache__/
+*.py[cod]

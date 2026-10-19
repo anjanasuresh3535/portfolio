@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="djBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c24"/>
+      <stop offset="100%" stop-color="#080616"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="480" fill="url(#djBg)"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="800" height="42" fill="#181135"/>
+  <circle cx="24" cy="21" r="5.5" fill="#ef4444" opacity="0.85"/>
+  <circle cx="42" cy="21" r="5.5" fill="#f59e0b" opacity="0.85"/>
+  <circle cx="60" cy="21" r="5.5" fill="#10b981" opacity="0.85"/>
+  <rect x="180" y="9" width="440" height="24" rx="12" fill="#0d081e"/>
+  <text x="400" y="25" font-family="'JetBrains Mono', monospace" font-size="11" fill="#cbd5e1" text-anchor="middle">api.faithinfotech.internal/v1/endpoints</text>
+  
+  <!-- Left Postman Style Collections -->
+  <rect x="0" y="42" width="220" height="438" fill="#110d29"/>
+  <text x="24" y="76" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Django REST Services</text>
+  
+  <g transform="translate(16, 95)">
+    <rect x="0" y="0" width="188" height="34" rx="6" fill="#1b143c"/>
+    <rect x="8" y="8" width="40" height="18" rx="4" fill="#10b981" fill-opacity="0.2"/>
+    <text x="18" y="21" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#34d399">GET</text>
+    <text x="56" y="21" font-family="'Inter', sans-serif" font-size="11" fill="#f8fafc">/api/v1/modules/</text>
+    
+    <rect x="0" y="42" width="188" height="34" rx="6" fill="#1b143c"/>
+    <rect x="8" y="50" width="45" height="18" rx="4" fill="#38bdf8" fill-opacity="0.2"/>
+    <text x="14" y="63" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#38bdf8">POST</text>
+    <text x="60" y="63" font-family="'Inter', sans-serif" font-size="11" fill="#f8fafc">/api/v1/records/</text>
+    
+    <rect x="0" y="84" width="188" height="34" rx="6" fill="#1b143c"/>
+    <rect x="8" y="92" width="40" height="18" rx="4" fill="#f59e0b" fill-opacity="0.2"/>
+    <text x="18" y="105" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#fbbf24">PUT</text>
+    <text x="56" y="105" font-family="'Inter', sans-serif" font-size="11" fill="#f8fafc">/api/v1/data/42/</text>
+  </g>
+  
+  <text x="24" y="260" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">INTERNSHIP SCOPE</text>
+  <text x="24" y="285" font-family="'Inter', sans-serif" font-size="11" fill="#cbd5e1">• Faith Infotech, Kerala</text>
+  <text x="24" y="310" font-family="'Inter', sans-serif" font-size="11" fill="#cbd5e1">• Python &amp; Django REST</text>
+  <text x="24" y="335" font-family="'Inter', sans-serif" font-size="11" fill="#cbd5e1">• MySQL Schema Design</text>
+  <text x="24" y="360" font-family="'Inter', sans-serif" font-size="11" fill="#cbd5e1">• Postman Verification</text>
+  
+  <!-- Right API Response Body -->
+  <g transform="translate(240, 65)">
+    <!-- Endpoint bar -->
+    <rect x="0" y="0" width="535" height="42" rx="8" fill="#150f33" stroke="#2d1c58" stroke-width="1"/>
+    <rect x="12" y="10" width="48" height="22" rx="4" fill="#10b981" fill-opacity="0.25"/>
+    <text x="23" y="25" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#10b981">GET</text>
+    <text x="70" y="26" font-family="'JetBrains Mono', monospace" font-size="12" fill="#f8fafc">https://api.faithinfotech.internal/v1/modules/verify</text>
+    <rect x="460" y="10" width="60" height="22" rx="4" fill="#a855f7" fill-opacity="0.3"/>
+    <text x="475" y="25" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#c084fc">200 OK</text>
+    
+    <!-- JSON Response Container -->
+    <rect x="0" y="55" width="535" height="340" rx="8" fill="#0c081d" stroke="#221544" stroke-width="1"/>
+    <text x="20" y="85" font-family="'JetBrains Mono', monospace" font-size="11" fill="#64748b">// Response Payload (Django REST Framework Serializer)</text>
+    <text x="20" y="110" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f8fafc">{</text>
+    <text x="40" y="132" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"status": <tspan fill="#34d399">"success"</tspan>,</text>
+    <text x="40" y="154" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"internship_role": <tspan fill="#38bdf8">"Full Stack Development Intern"</tspan>,</text>
+    <text x="40" y="176" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"organization": <tspan fill="#f8fafc">"Faith Infotech, Kerala"</tspan>,</text>
+    <text x="40" y="198" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"technologies": [</text>
+    <text x="60" y="220" font-family="'JetBrains Mono', monospace" font-size="11" fill="#cbd5e1">"Python", "Django REST Framework", "MySQL", "REST APIs", "Postman"</text>
+    <text x="40" y="242" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">],</text>
+    <text x="40" y="264" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"verified_endpoints": <tspan fill="#f59e0b">true</tspan>,</text>
+    <text x="40" y="286" font-family="'JetBrains Mono', monospace" font-size="11" fill="#a78bfa">"request_time_ms": <tspan fill="#38bdf8">14.2</tspan></text>
+    <text x="20" y="310" font-family="'JetBrains Mono', monospace" font-size="11" fill="#f8fafc">}</text>
+  </g>
+</svg>

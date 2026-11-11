@@ -811,22 +811,17 @@ code, pre {
 
 .orbit-center-icon {
   font-family: var(--font-mono);
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-weight: 800;
   color: #fff;
   background: var(--grad-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .orbit-center-label {
-  font-size: 0.82rem;
-  color: var(--accent-lavender-soft);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  margin-top: 0.35rem;
+  display: none;
 }
 
 @keyframes pulseGlow {

@@ -95,7 +95,7 @@ story.append(Paragraph("Anjana Suresh", title_style))
 story.append(Spacer(1, 2))
 story.append(Paragraph("Aspiring MCA Student | Software Developer", sub_style))
 story.append(Spacer(1, 3))
-story.append(Paragraph("Pathanamthitta, India &nbsp;|&nbsp; 9946659118 &nbsp;|&nbsp; anjanasuresh3535@gmail.com<br/>linkedin.com/in/anjanasuresh7404 &nbsp;|&nbsp; github.com/anjanasuresh3535", contact_style))
+story.append(Paragraph("Pathanamthitta, India &nbsp;|&nbsp; anjanasuresh3535@gmail.com<br/>linkedin.com/in/anjanasuresh7404 &nbsp;|&nbsp; github.com/anjanasuresh3535", contact_style))
 story.append(Spacer(1, 4))
 story.append(HRFlowable(width="100%", thickness=1.2, color=colors.HexColor('#0f172a'), spaceBefore=2, spaceAfter=6))
 
